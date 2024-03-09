@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.li_button{
+    display: none;
+}
+.main-content{
+    overflow: hidden;
+}
+.menubar ul li a{
+    font-size: 1.25rem;
+    color: #04212F;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 768px){
+    .nav-menu{
+        display: none;
+
+    }
+    .li_button{
+        display: block;
+    }
+
+}
+/* -----------------------------------------------hero-------------------------------------- */
+.row_hero{
+    background-image: linear-gradient(to right,rgb(123,71,28),rgb(188,124,70));
+    height: 294px;
+    width: 1519px;
+
+}
+.main_info{
+    margin-top: -24rem;
+
+}
+.butt-sub-content button{
+    border-radius: 7px;
+}
+.banar-card{
+    border: none;
+    box-shadow: 0.33px 0.33px 6px #8c8d82;
+    height: 350px;
+    width: 366px;
+    border-radius: 5px;
+}
+.banar-card img{
+    height: 60%;
+    border-radius: 5px 5px 0px 0px;
+}
+.detail1 h3{
+    font-weight: 580;
+    font-size: 16px;
+
+}
+.detail1 p{
+    font-weight: 520;
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+.course_list li::marker{
+    color: rgb(2,120,174);
+    font-size: 2rem;
+}
+/* ..................................................footer.............................................. */
+.foot{
+    background-color: #04212F;
+    /* padding-bottom: 5%; */
+}
+.foot_row{
+    padding:4% 0% 0% 8%;
+}
+.commu{
+    background-image: url(/componand/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 1% 0% 7% 0%;
+}
+.place_form::placeholder{
+    color: white;
+    font-size: 14px;
+    font-weight: 550;
+    padding-left:15px;
+}
+

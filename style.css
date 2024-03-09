@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+/* ------------------------------nav bar--------------------------------- */
+html{
+    scroll-behavior: smooth;
+}
+.li_button{
+    display: none;
+}
+.main-content{
+    overflow: hidden;
+}
+.menubar ul li a{
+    font-size: 1.25rem;
+    color: #04212F;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.tabs_css{
+    border: none;
+}
+/* ------------------------------bnar--------------------------------------- */
+.main-banar{
+    background-image: url(/componand/Banner.png);
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sub-main-bar{
+    padding:4% 0% 0% 8%;
+}
+.banar-card{
+    border: none;
+    box-shadow: 10px 10px 50px #d5d5d7b8;
+    height: 350px;
+    width: 366px;
+    border-radius: 5px;
+}
+.banar-card img{
+    height: 60%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.card_row{
+    padding:0% 16% 0% 7.5%;
+    margin-top: -9rem;
+}
+.card_cou{
+    height: 366px;
+    width: 366px;
+    border: none;
+    box-shadow: 0px 0px 13px #e0e0e1e2;
+}
+/* ----------------------------------body------------------------------------------- */
+
+.para{
+    color: rgba(216, 207, 207, 0.614);
+    font-size: medium;
+}
+.hero_row{
+    padding:6% 0% 0% 8%;
+}
+.badges_row{
+    padding:4% 0% 0% 8%;
+}
+.tabs_css li a{
+    font-size: 1.5rem;
+}
+.deg-card{
+    overflow: hidden;
+}
+.profile_card{
+    border: none;
+}
+.deg-card{
+    padding:4% 0% 0% 8%;
+}
+/* ------------------------------------teacher------------------------------------------- */
+.imag_tea{
+    border-radius: 50%;
+    height: 12vh;
+    width: 6vw;
+}
+.style_card{
+    width: 371px;
+    height: 135px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 13px #e0e0e1e2;
+}
+.style_card h4{
+    font-size: 1.5rem;
+    font-weight: 650;
+}
+.style_card p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #7F7F7F;
+}
+.style_card1{
+    width: 371px;
+    height: 135px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 13px #d2d6d9;
+}
+.style_card1 h4{
+    font-size: 1.5rem;
+    font-weight: 650;
+}
+.style_card1 p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #d2d6d9;
+}
+.style_card2{
+    width: 371px;
+    height: 135px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 13px #d2d6d9;
+}
+.style_card2 h4{
+    font-size: 1.5rem;
+    font-weight: 650;
+}
+.style_card2 p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #7F7F7F;
+}
+/* -----------------------------------------footer----------------------------------------------- */
+.foot{
+    background-color: #04212F;
+}
+.foot_row{
+    padding:4% 0% 0% 8%;
+}
+/* ----------------------------community---------------------------------- */
+.commu{
+    background-image: url(/componand/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 60vh;
+    width: 100vw; */
+}
+/* -----------------------------community-------------------------------------- */
+.place_form::placeholder{
+    color: white;
+    font-size: 14px;
+    font-weight: 550;
+    padding-left:15px;
+}
+@media screen and (max-width: 541px) {
+    .place_form::placeholder{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .foot_li{
+        font-size: 14px;
+    }
+    .input-group input{
+
+        border-right:1px solid white;
+    }
+}
+
+
+

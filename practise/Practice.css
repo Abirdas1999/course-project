@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-
 }
 html{
     scroll-behavior: smooth;
@@ -30,25 +29,21 @@ html{
     }
 
 }
-/* -----------------------------------------------hero-------------------------------------- */
+
+
+/* ------------------body------------------ */
 .row_hero{
-    background-image: linear-gradient(to right,rgb(123,71,28),rgb(188,124,70));
+    background-image: linear-gradient(to right,rgb(87, 45, 12),rgb(188,124,70));
     height: 294px;
-    width: 1519px;
-
-}
-.main_info{
-    margin-top: -24rem;
-
+    width:100%;
+    position: absolute;
 }
 .butt-sub-content button{
     border-radius: 7px;
 }
 .banar-card{
     border: none;
-    box-shadow: 0.33px 0.33px 6px #8c8d82;
-    height: 350px;
-    width: 366px;
+    box-shadow: 0.33px 0.33px 6px #b5b8ad;
     border-radius: 5px;
 }
 .banar-card img{
@@ -58,7 +53,6 @@ html{
 .detail1 h3{
     font-weight: 580;
     font-size: 16px;
-
 }
 .detail1 p{
     font-weight: 520;
@@ -69,20 +63,18 @@ html{
     color: rgb(2,120,174);
     font-size: 2rem;
 }
-/* ..................................................footer.............................................. */
+@media screen and (max-width: 768px) {
+    .h3_tag h3{
+        color: black;
+    }
+    .sub-content h3{
+        color: #04212F;
+    }
+}
+
+/* ---------------------footer--------------------------- */
 .foot{
     background-color: #04212F;
-    /* padding-bottom: 5%; */
-}
-.foot_row{
-    padding:4% 0% 0% 8%;
-}
-.commu{
-    background-image: url(/componand/Rectangle\ 11.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 1% 0% 7% 0%;
 }
 .place_form::placeholder{
     color: white;
@@ -90,4 +82,18 @@ html{
     font-weight: 550;
     padding-left:15px;
 }
-
+@media screen and (max-width: 542px) {
+    .input_foot h4{
+        width: 105%;
+    }
+}
+@media screen and (max-width: 434px) {
+    .foot_row{
+        padding-left: 2rem !important;
+    }
+}
+@media screen and (max-width: 434px) {
+    .foot_li li a{
+        font-size: 14px;
+    }
+}

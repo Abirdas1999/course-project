@@ -80,17 +80,19 @@ html{
     padding:4% 0% 0% 8%;
 }
 /* ------------------------------------teacher------------------------------------------- */
+.banar-card{
+    border: none;
+    box-shadow: 10px 10px 50px #d5d5d7b8;
+    border-radius: 5px;
+}
 .imag_tea{
-    border-radius: 50%;
-    height: 12vh;
-    width: 6vw;
+    margin-top: -2rem;
 }
 .style_card{
-    width: 371px;
-    height: 135px;
     border-radius: 5px;
     border: none;
-    box-shadow: 0px 0px 13px #e0e0e1e2;
+    box-shadow: 0px 0px 13px #c2c2c4e2;
+    /* position: relative; */
 }
 .style_card h4{
     font-size: 1.5rem;
@@ -102,8 +104,6 @@ html{
     color: #7F7F7F;
 }
 .style_card1{
-    width: 371px;
-    height: 135px;
     border-radius: 5px;
     border: none;
     box-shadow: 0px 0px 13px #d2d6d9;
@@ -118,8 +118,6 @@ html{
     color: #d2d6d9;
 }
 .style_card2{
-    width: 371px;
-    height: 135px;
     border-radius: 5px;
     border: none;
     box-shadow: 0px 0px 13px #d2d6d9;
@@ -133,12 +131,30 @@ html{
     font-weight: 500;
     color: #7F7F7F;
 }
-/* -----------------------------------------footer----------------------------------------------- */
+/* ---------------------footer--------------------------- */
 .foot{
     background-color: #04212F;
 }
-.foot_row{
-    padding:4% 0% 0% 8%;
+.place_form::placeholder{
+    color: white;
+    font-size: 14px;
+    font-weight: 550;
+    padding-left:15px;
+}
+@media screen and (max-width: 542px) {
+    .input_foot h4{
+        width: 105%;
+    }
+}
+@media screen and (max-width: 434px) {
+    .foot_row{
+        padding-left: 2rem !important;
+    }
+}
+@media screen and (max-width: 434px) {
+    .foot_li li a{
+        font-size: 14px;
+    }
 }
 /* ----------------------------community---------------------------------- */
 .commu{
@@ -149,12 +165,6 @@ html{
     width: 100vw; */
 }
 /* -----------------------------community-------------------------------------- */
-.place_form::placeholder{
-    color: white;
-    font-size: 14px;
-    font-weight: 550;
-    padding-left:15px;
-}
 @media screen and (max-width: 541px) {
     .place_form::placeholder{
         font-size: 10px;

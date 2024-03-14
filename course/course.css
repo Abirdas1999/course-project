@@ -31,4 +31,24 @@ html{
     font-weight: 550;
     padding-left:15px;
 }
+@media screen and (max-width: 542px) {
+    .input_foot h4{
+        width: 105%;
+    }
+}
+@media screen and (max-width: 417px) {
+    .foot_row{
+        padding-right: 1rem !important;
+    }
+}
+@media screen and (max-width: 350px) {
+    .foot_row{
+        padding-right: 2rem !important;
+    }
+}
+@media screen and (max-width: 434px) {
+    .foot_li li a{
+        font-size: 12px;
+    }
+}
 

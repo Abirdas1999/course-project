@@ -7,9 +7,6 @@
 html{
     scroll-behavior: smooth;
 }
-.li_button{
-    display: none;
-}
 .main-content{
     overflow: hidden;
 }
@@ -21,16 +18,6 @@ html{
 }
 .icon_color{
     color: white !important;
-}
-@media screen and (max-width: 768px){
-    .nav-menu{
-        display: none;
-
-    }
-    .li_button{
-        display: block;
-    }
-
 }
 
 
@@ -74,7 +61,6 @@ html{
         color: #04212F;
     }
 }
-
 /* ---------------------footer--------------------------- */
 .foot{
     background-color: #04212F;
